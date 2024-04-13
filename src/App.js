@@ -1,5 +1,7 @@
 import Home from "./screens/Home";
 import Login from "./screens/Login";
+import Signup from "./screens/Signup.js";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,6 +21,9 @@ function App() {
         </Routes>
         <Routes>
           <Route exact path="/login" element={<Login/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/signup" element={<Signup/>}/>
         </Routes>
       </div>
 
