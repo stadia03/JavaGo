@@ -10,7 +10,7 @@ const mongoDB = async () => {
 
     const fetched_data = await mongoose.connection.db.collection("food_items");
     const data = await fetched_data.find({}).toArray(); //({}) to fetch all the data
-    console.log(data[0]);
+    // console.log(data[0]);
   } catch (err) {
     console.log('Some issues regarding connection: ' + err);
   }
