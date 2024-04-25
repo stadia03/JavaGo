@@ -24,3 +24,5 @@ app.listen(port, () => {
 });
 
 app.use('/', require("./routes/userRoutes"));
+app.use('/', require("./routes/displayRoutes"));
+app.use('/',require("./routes/orderData"));

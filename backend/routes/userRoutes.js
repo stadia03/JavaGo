@@ -4,11 +4,15 @@ const router = express.Router();
 const User = require('../models/User');
 
 const { body, validationResult } = require('express-validator');
+const jwt = require('jsonwebtoken');
 
+const bcrypt = require('bcryptjs');
 
 router.get('/', async (req, res) => {
-  res.status(200).send('Hello!');
+  res.status(200).send('Hello World!');
 });
+
+const jwtSecret = 'MyNameIsGaurabAndThisIsMyFirstMernStackProjectAlsoIAmVeryExcited';
 
 
 router.post('/createuser',
@@ -22,11 +26,14 @@ router.post('/createuser',
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
     }
+    // bcrypt hashing 
+    const salt = await bcrypt.genSalt(10);
+    let secure_password = await bcrypt.hash(req.body.password,salt);
 
     try {
       await User.create({
         name: req.body.name,
-        password: req.body.password,
+        password: secure_password ,
         email: req.body.email,
         location: req.body.location
       });
@@ -57,11 +64,19 @@ router.post('/loginuser', [
     if (!userData) {
       return res.status(400).json({ errors: "User Not Found!" })
     }
-    if (req.body.password !== userData.password) {
+    const pwdCompare = await bcrypt.compare(req.body.password,userData.password);
+
+    if (!pwdCompare) {
       return res.status(400).json({ errors: "Invalid credentials" })
     }
     
-    return res.json({ success: true });
+    const data = {
+      user :{
+        id: userData.id
+      }
+    }
+    const authToken= jwt.sign(data,jwtSecret);
+    return res.json({ success: true,authToken:authToken });
   }
   catch (err) {
     console.log(err);
