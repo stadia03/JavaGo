@@ -72,7 +72,7 @@ Instructions on how to install and set up your project locally.
 ![image](https://github.com/stadia03/JavaGo/assets/93596846/0301a7c6-40f9-4716-bf46-e802acaed338 =300)
 
 ![image](https://github.com/stadia03/JavaGo/assets/93596846/38c718a1-cf03-4aaf-a89d-13af7e4e9e62 | width=100)
-
+<img src="https://github.com/stadia03/JavaGo/assets/93596846/38c718a1-cf03-4aaf-a89d-13af7e4e9e62" width="48">
 #### Contributing
 
 1. Fork the repository.
