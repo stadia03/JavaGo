@@ -65,14 +65,11 @@ Instructions on how to install and set up your project locally.
 
 #### Screenshots
 
-######Home Page 
+###### Home Page 
 
 <img src="https://github.com/stadia03/JavaGo/assets/93596846/935a35aa-ca90-47a6-931a-486940d9e790" width="800">
 <img src="https://github.com/stadia03/JavaGo/assets/93596846/28bd95b3-7d1d-4533-bb8e-6ad79a387b37" width="800">
 <img src="https://github.com/stadia03/JavaGo/assets/93596846/9a722dd3-2ba7-43ca-9c7b-5f8832e8da8b" width="800">
-![image](https://github.com/stadia03/JavaGo/assets/93596846/935a35aa-ca90-47a6-931a-486940d9e790)
-![image](https://github.com/stadia03/JavaGo/assets/93596846/28bd95b3-7d1d-4533-bb8e-6ad79a387b37)
-![image](https://github.com/stadia03/JavaGo/assets/93596846/9a722dd3-2ba7-43ca-9c7b-5f8832e8da8b)
 
 ###### My cart
 <img src="https://github.com/stadia03/JavaGo/assets/93596846/38c718a1-cf03-4aaf-a89d-13af7e4e9e62" width="800">
