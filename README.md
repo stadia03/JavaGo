@@ -71,7 +71,7 @@ Instructions on how to install and set up your project locally.
 ![image](https://github.com/stadia03/JavaGo/assets/93596846/9a722dd3-2ba7-43ca-9c7b-5f8832e8da8b)
 
 ###### My cart
-<img src="https://github.com/stadia03/JavaGo/assets/93596846/38c718a1-cf03-4aaf-a89d-13af7e4e9e62" width="300">
+<img src="https://github.com/stadia03/JavaGo/assets/93596846/38c718a1-cf03-4aaf-a89d-13af7e4e9e62" width="600">
 
 
 #### Contributing
