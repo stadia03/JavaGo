@@ -43,7 +43,7 @@ function Home() {
             </div>
             <div className="carousel-item active">
               <img
-                src="https://source.unsplash.com/random/900x700/?burger"
+                src="https://www.shutterstock.com/image-photo/burger-tomateoes-lettuce-pickles-on-600nw-2309539129.jpg"
                 className="d-block w-100"
                 alt="burger"
                 style={{ objectFit: 'cover', height: '700px', width: '100%', filter: "brightness(30%)" }}
@@ -51,12 +51,12 @@ function Home() {
               {/* <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100" alt="burger" style={{ filter: "brightness(30%)" }} /> */}
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?cupcakes" className="d-block w-100" alt="cupcakes" style={{ filter: "brightness(30%)" }} />
+              <img src="https://www.shutterstock.com/image-photo/tasty-breakfast-cup-coffee-jam-600nw-2448687433.jpg" className="d-block w-100" alt="cupcakes" style={{ filter: "brightness(30%)" }} />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?Dumpling" className="d-block w-100" alt="momos" style={{ filter: "brightness(30%)" }} />
+              <img src="https://media.istockphoto.com/id/1814338392/photo/veg-momos-or-steamed-momos-with-tamato-chilli-sauce.jpg?s=612x612&w=0&k=20&c=17hlDG9NGY6z-d4i681dIl2D_JTaQrZd5dHwgG2b1mY=" className="d-block w-100" alt="momos" style={{ filter: "brightness(30%)" }} />
             </div>
-          </div>
+          </div>  
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
